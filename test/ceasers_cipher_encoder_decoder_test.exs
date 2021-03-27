@@ -1,8 +1,8 @@
-defmodule CeasersCipherEncoderDecoderTest do
+defmodule CeasarsCipherEncoderDecoderTest do
   use ExUnit.Case
-  doctest CeasersCipherEncoderDecoder
+  doctest CeasarsCipherEncoderDecoder
 
   test "greets the world" do
-    assert CeasersCipherEncoderDecoder.hello() == :world
+    assert CeasarsCipherEncoderDecoder.hello() == :world
   end
 end

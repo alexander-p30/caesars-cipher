@@ -1,9 +1,9 @@
-defmodule CeasersCipherEncoderDecoder.MixProject do
+defmodule CeasarsCipherEncoderDecoder.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :ceasers_cipher_encoder_decoder,
+      app: :ceasars_cipher_encoder_decoder,
       version: "0.1.0",
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
