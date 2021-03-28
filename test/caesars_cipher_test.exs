@@ -1,7 +1,7 @@
-defmodule CeasarsCipherTest do
+defmodule CaesarsCipherTest do
   use ExUnit.Case
-  import CeasarsCipher
-  doctest CeasarsCipher
+  import CaesarsCipher
+  doctest CaesarsCipher
 
   describe "start" do
     tests = [

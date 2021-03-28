@@ -1,4 +1,4 @@
-defmodule CeasarsCipher.Encoder do
+defmodule CaesarsCipher.Encoder do
   @first_upper 65
   @last_upper 90
   @first_lower 97
