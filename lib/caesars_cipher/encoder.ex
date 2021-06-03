@@ -2,9 +2,9 @@ defmodule CaesarsCipher.Encoder do
   @max_offset 26
 
   def perform(message, cipher_offset) do
-    message 
-    |> String.to_charlist() 
-    |> Enum.map(&encode_character(&1, cipher_offset)) 
+    message
+    |> String.to_charlist()
+    |> Enum.map(&encode_character(&1, cipher_offset))
     |> to_string
   end
 
